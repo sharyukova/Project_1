@@ -10,11 +10,42 @@ using System.Windows.Forms;
 
 namespace Project_1
 {
-    public partial class EntryForm : Form
+    public partial class LoginForm : Form
     {
-        public EntryForm()
+        public LoginForm()
         {
             InitializeComponent();
         }
+
+        private void closeLabel_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void closeLabel_MouseEnter(object sender, EventArgs e)
+        {
+            closeLabel.ForeColor = Color.Gray;
+        }
+
+        private void closeLabel_MouseLeave(object sender, EventArgs e)
+        {
+            closeLabel.ForeColor = Color.FromArgb(104, 100, 252);
+        }
+
+        private void setInButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SetInForm setInForm = new SetInForm();
+            setInForm.Show();
+        }
+
+        private void setUpButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            SetUpForm setUpForm = new SetUpForm();
+            setUpForm.Show();
+        }
+
+
     }
 }
