@@ -32,7 +32,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.closeLabel = new System.Windows.Forms.Label();
-            this.setUpButton = new System.Windows.Forms.Button();
+            this.adminButton = new System.Windows.Forms.Button();
             this.setInButton = new System.Windows.Forms.Button();
             this.topPanel.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -66,7 +66,7 @@
             this.panel1.BackgroundImage = global::Project_1.Properties.Resources.background_;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.closeLabel);
-            this.panel1.Controls.Add(this.setUpButton);
+            this.panel1.Controls.Add(this.adminButton);
             this.panel1.Controls.Add(this.setInButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 135);
@@ -90,21 +90,21 @@
             this.closeLabel.MouseEnter += new System.EventHandler(this.closeLabel_MouseEnter);
             this.closeLabel.MouseLeave += new System.EventHandler(this.closeLabel_MouseLeave);
             // 
-            // setUpButton
+            // adminButton
             // 
-            this.setUpButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
-            this.setUpButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.setUpButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.setUpButton.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.setUpButton.ForeColor = System.Drawing.Color.White;
-            this.setUpButton.Location = new System.Drawing.Point(151, 142);
-            this.setUpButton.Name = "setUpButton";
-            this.setUpButton.Size = new System.Drawing.Size(312, 68);
-            this.setUpButton.TabIndex = 1;
-            this.setUpButton.Text = "Зарегистрироваться";
-            this.setUpButton.UseVisualStyleBackColor = false;
-            this.setUpButton.UseWaitCursor = true;
-            this.setUpButton.Click += new System.EventHandler(this.setUpButton_Click);
+            this.adminButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.adminButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.adminButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.adminButton.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.adminButton.ForeColor = System.Drawing.Color.White;
+            this.adminButton.Location = new System.Drawing.Point(151, 171);
+            this.adminButton.Name = "adminButton";
+            this.adminButton.Size = new System.Drawing.Size(312, 39);
+            this.adminButton.TabIndex = 1;
+            this.adminButton.Text = "Войти как админ";
+            this.adminButton.UseVisualStyleBackColor = false;
+            this.adminButton.UseWaitCursor = true;
+            this.adminButton.Click += new System.EventHandler(this.setUpButton_Click);
             // 
             // setInButton
             // 
@@ -112,11 +112,11 @@
             this.setInButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.setInButton.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.setInButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.setInButton.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.setInButton.Font = new System.Drawing.Font("Yu Gothic UI", 14F, System.Drawing.FontStyle.Bold);
             this.setInButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
-            this.setInButton.Location = new System.Drawing.Point(207, 54);
+            this.setInButton.Location = new System.Drawing.Point(200, 66);
             this.setInButton.Name = "setInButton";
-            this.setInButton.Size = new System.Drawing.Size(199, 58);
+            this.setInButton.Size = new System.Drawing.Size(224, 85);
             this.setInButton.TabIndex = 0;
             this.setInButton.Text = "Войти";
             this.setInButton.UseVisualStyleBackColor = false;
@@ -150,7 +150,7 @@
         private System.Windows.Forms.Panel topPanel;
         private System.Windows.Forms.Button setInButton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button setUpButton;
+        private System.Windows.Forms.Button adminButton;
         private System.Windows.Forms.Label closeLabel;
     }
 }

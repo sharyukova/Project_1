@@ -42,7 +42,7 @@ namespace Project_1
         private void setUpButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            SetUpForm setUpForm = new SetUpForm();
+            AdminForm setUpForm = new AdminForm();
             setUpForm.Show();
         }
 

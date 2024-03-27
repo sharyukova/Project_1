@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Project_1
 {
-    public partial class SetUpForm : Form
+    public partial class MainForm : Form
     {
-        public SetUpForm()
+        public MainForm()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
