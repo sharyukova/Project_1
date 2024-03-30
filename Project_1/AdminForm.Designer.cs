@@ -28,71 +28,120 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.openScheduleButton = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataPanel = new System.Windows.Forms.Panel();
+            this.closeLabel = new System.Windows.Forms.Label();
             this.dataLabel = new System.Windows.Forms.Label();
             this.studDataGridView = new System.Windows.Forms.DataGridView();
-            this.editPanel = new System.Windows.Forms.Panel();
-            this.closeLabel = new System.Windows.Forms.Label();
-            this.passwField = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.usernameLabel = new System.Windows.Forms.Label();
-            this.usernameField = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.deleteStudButton = new System.Windows.Forms.Button();
-            this.clearStudButton = new System.Windows.Forms.Button();
-            this.updateStudButton = new System.Windows.Forms.Button();
             this.addStudButton = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.phonenumLabel = new System.Windows.Forms.Label();
-            this.genderField = new System.Windows.Forms.ComboBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.genderLabel = new System.Windows.Forms.Label();
-            this.patronymicField = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.secnameField = new System.Windows.Forms.TextBox();
-            this.secondNameLabel = new System.Windows.Forms.Label();
-            this.firstnameField = new System.Windows.Forms.TextBox();
-            this.nameLabel = new System.Windows.Forms.Label();
+            this.updateStudButton = new System.Windows.Forms.Button();
+            this.editStudButton = new System.Windows.Forms.Button();
+            this.deleteStudButton = new System.Windows.Forms.Button();
+            this.enterPic = new System.Windows.Forms.PictureBox();
+            this.returnButton = new System.Windows.Forms.Button();
+            this.scoresPic = new System.Windows.Forms.PictureBox();
+            this.openScoresButton = new System.Windows.Forms.Button();
+            this.groupsPic = new System.Windows.Forms.PictureBox();
+            this.openGroupsButton = new System.Windows.Forms.Button();
+            this.schedulePic = new System.Windows.Forms.PictureBox();
+            this.openSchedButton = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.dataPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.studDataGridView)).BeginInit();
-            this.editPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.enterPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scoresPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupsPic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.schedulePic)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.pictureBox1);
+            this.panel1.Controls.Add(this.openScheduleButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1299, 91);
             this.panel1.TabIndex = 0;
             // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.White;
+            this.panel3.Controls.Add(this.enterPic);
+            this.panel3.Controls.Add(this.returnButton);
+            this.panel3.Controls.Add(this.scoresPic);
+            this.panel3.Controls.Add(this.openScoresButton);
+            this.panel3.Controls.Add(this.groupsPic);
+            this.panel3.Controls.Add(this.openGroupsButton);
+            this.panel3.Controls.Add(this.schedulePic);
+            this.panel3.Controls.Add(this.openSchedButton);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1299, 91);
+            this.panel3.TabIndex = 4;
+            // 
+            // openScheduleButton
+            // 
+            this.openScheduleButton.Location = new System.Drawing.Point(0, 0);
+            this.openScheduleButton.Name = "openScheduleButton";
+            this.openScheduleButton.Size = new System.Drawing.Size(75, 23);
+            this.openScheduleButton.TabIndex = 5;
+            // 
             // panel2
             // 
-            this.panel2.BackgroundImage = global::Project_1.Properties.Resources.background_;
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel2.Controls.Add(this.editPanel);
             this.panel2.Controls.Add(this.dataPanel);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 90);
+            this.panel2.Location = new System.Drawing.Point(0, 87);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1299, 650);
+            this.panel2.Size = new System.Drawing.Size(1299, 681);
             this.panel2.TabIndex = 1;
             // 
             // dataPanel
             // 
             this.dataPanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.dataPanel.Controls.Add(this.closeLabel);
             this.dataPanel.Controls.Add(this.dataLabel);
             this.dataPanel.Controls.Add(this.studDataGridView);
+            this.dataPanel.Controls.Add(this.addStudButton);
+            this.dataPanel.Controls.Add(this.updateStudButton);
+            this.dataPanel.Controls.Add(this.editStudButton);
+            this.dataPanel.Controls.Add(this.deleteStudButton);
             this.dataPanel.Location = new System.Drawing.Point(12, 17);
             this.dataPanel.Name = "dataPanel";
-            this.dataPanel.Size = new System.Drawing.Size(1275, 360);
+            this.dataPanel.Size = new System.Drawing.Size(1275, 650);
             this.dataPanel.TabIndex = 3;
+            // 
+            // closeLabel
+            // 
+            this.closeLabel.AutoSize = true;
+            this.closeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.closeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.closeLabel.Location = new System.Drawing.Point(596, 620);
+            this.closeLabel.Name = "closeLabel";
+            this.closeLabel.Size = new System.Drawing.Size(92, 20);
+            this.closeLabel.TabIndex = 17;
+            this.closeLabel.Text = "закрыть х";
+            this.closeLabel.UseWaitCursor = true;
+            this.closeLabel.Click += new System.EventHandler(this.closeLabel_Click_1);
             // 
             // dataLabel
             // 
@@ -113,291 +162,223 @@
             this.studDataGridView.Name = "studDataGridView";
             this.studDataGridView.RowHeadersWidth = 51;
             this.studDataGridView.RowTemplate.Height = 24;
-            this.studDataGridView.Size = new System.Drawing.Size(1234, 272);
+            this.studDataGridView.Size = new System.Drawing.Size(1234, 539);
             this.studDataGridView.TabIndex = 0;
-            // 
-            // editPanel
-            // 
-            this.editPanel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.editPanel.Controls.Add(this.closeLabel);
-            this.editPanel.Controls.Add(this.passwField);
-            this.editPanel.Controls.Add(this.textBox5);
-            this.editPanel.Controls.Add(this.usernameLabel);
-            this.editPanel.Controls.Add(this.usernameField);
-            this.editPanel.Controls.Add(this.label4);
-            this.editPanel.Controls.Add(this.deleteStudButton);
-            this.editPanel.Controls.Add(this.clearStudButton);
-            this.editPanel.Controls.Add(this.updateStudButton);
-            this.editPanel.Controls.Add(this.addStudButton);
-            this.editPanel.Controls.Add(this.textBox1);
-            this.editPanel.Controls.Add(this.phonenumLabel);
-            this.editPanel.Controls.Add(this.genderField);
-            this.editPanel.Controls.Add(this.textBox3);
-            this.editPanel.Controls.Add(this.label3);
-            this.editPanel.Controls.Add(this.genderLabel);
-            this.editPanel.Controls.Add(this.patronymicField);
-            this.editPanel.Controls.Add(this.label2);
-            this.editPanel.Controls.Add(this.secnameField);
-            this.editPanel.Controls.Add(this.secondNameLabel);
-            this.editPanel.Controls.Add(this.firstnameField);
-            this.editPanel.Controls.Add(this.nameLabel);
-            this.editPanel.Location = new System.Drawing.Point(12, 383);
-            this.editPanel.Name = "editPanel";
-            this.editPanel.Size = new System.Drawing.Size(1275, 254);
-            this.editPanel.TabIndex = 4;
-            // 
-            // closeLabel
-            // 
-            this.closeLabel.AutoSize = true;
-            this.closeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.closeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
-            this.closeLabel.Location = new System.Drawing.Point(619, 223);
-            this.closeLabel.Name = "closeLabel";
-            this.closeLabel.Size = new System.Drawing.Size(92, 20);
-            this.closeLabel.TabIndex = 22;
-            this.closeLabel.Text = "закрыть х";
-            this.closeLabel.UseWaitCursor = true;
-            // 
-            // passwField
-            // 
-            this.passwField.BackColor = System.Drawing.SystemColors.Window;
-            this.passwField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.passwField.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.passwField.Location = new System.Drawing.Point(1074, 206);
-            this.passwField.Name = "passwField";
-            this.passwField.Size = new System.Drawing.Size(185, 24);
-            this.passwField.TabIndex = 21;
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.textBox5.Location = new System.Drawing.Point(1586, 143);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(185, 24);
-            this.textBox5.TabIndex = 20;
-            // 
-            // usernameLabel
-            // 
-            this.usernameLabel.AutoSize = true;
-            this.usernameLabel.Font = new System.Drawing.Font("Yu Gothic UI", 9.2F);
-            this.usernameLabel.Location = new System.Drawing.Point(1009, 156);
-            this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(57, 21);
-            this.usernameLabel.TabIndex = 19;
-            this.usernameLabel.Text = "Логин:";
-            // 
-            // usernameField
-            // 
-            this.usernameField.BackColor = System.Drawing.SystemColors.Window;
-            this.usernameField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.usernameField.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.usernameField.Location = new System.Drawing.Point(1074, 153);
-            this.usernameField.Name = "usernameField";
-            this.usernameField.Size = new System.Drawing.Size(185, 24);
-            this.usernameField.TabIndex = 18;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 9.2F);
-            this.label4.Location = new System.Drawing.Point(1000, 209);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 21);
-            this.label4.TabIndex = 17;
-            this.label4.Text = "Пароль:";
-            // 
-            // deleteStudButton
-            // 
-            this.deleteStudButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
-            this.deleteStudButton.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.deleteStudButton.ForeColor = System.Drawing.Color.White;
-            this.deleteStudButton.Location = new System.Drawing.Point(1115, 81);
-            this.deleteStudButton.Name = "deleteStudButton";
-            this.deleteStudButton.Size = new System.Drawing.Size(119, 32);
-            this.deleteStudButton.TabIndex = 16;
-            this.deleteStudButton.Text = "Удалить";
-            this.deleteStudButton.UseVisualStyleBackColor = false;
-            // 
-            // clearStudButton
-            // 
-            this.clearStudButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
-            this.clearStudButton.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.clearStudButton.ForeColor = System.Drawing.Color.White;
-            this.clearStudButton.Location = new System.Drawing.Point(1115, 33);
-            this.clearStudButton.Name = "clearStudButton";
-            this.clearStudButton.Size = new System.Drawing.Size(119, 32);
-            this.clearStudButton.TabIndex = 15;
-            this.clearStudButton.Text = "Очистить";
-            this.clearStudButton.UseVisualStyleBackColor = false;
-            // 
-            // updateStudButton
-            // 
-            this.updateStudButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
-            this.updateStudButton.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.updateStudButton.ForeColor = System.Drawing.Color.White;
-            this.updateStudButton.Location = new System.Drawing.Point(963, 81);
-            this.updateStudButton.Name = "updateStudButton";
-            this.updateStudButton.Size = new System.Drawing.Size(119, 32);
-            this.updateStudButton.TabIndex = 14;
-            this.updateStudButton.Text = "Обновить";
-            this.updateStudButton.UseVisualStyleBackColor = false;
+            this.studDataGridView.UserAddedRow += new System.Windows.Forms.DataGridViewRowEventHandler(this.studDataGridView_UserAddedRow);
             // 
             // addStudButton
             // 
             this.addStudButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
-            this.addStudButton.Enabled = false;
             this.addStudButton.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addStudButton.ForeColor = System.Drawing.Color.White;
-            this.addStudButton.Location = new System.Drawing.Point(963, 33);
+            this.addStudButton.Location = new System.Drawing.Point(838, 29);
             this.addStudButton.Name = "addStudButton";
             this.addStudButton.Size = new System.Drawing.Size(119, 32);
             this.addStudButton.TabIndex = 13;
             this.addStudButton.Text = "Добавить";
             this.addStudButton.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.addStudButton.UseVisualStyleBackColor = false;
-            this.addStudButton.Click += new System.EventHandler(this.addStudButton_Click);
             // 
-            // textBox1
+            // updateStudButton
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.textBox1.Location = new System.Drawing.Point(623, 156);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(240, 24);
-            this.textBox1.TabIndex = 12;
+            this.updateStudButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.updateStudButton.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.updateStudButton.ForeColor = System.Drawing.Color.White;
+            this.updateStudButton.Location = new System.Drawing.Point(689, 29);
+            this.updateStudButton.Name = "updateStudButton";
+            this.updateStudButton.Size = new System.Drawing.Size(119, 32);
+            this.updateStudButton.TabIndex = 14;
+            this.updateStudButton.Text = "Обновить";
+            this.updateStudButton.UseVisualStyleBackColor = false;
+            this.updateStudButton.Click += new System.EventHandler(this.updateStudButton_Click);
             // 
-            // phonenumLabel
+            // editStudButton
             // 
-            this.phonenumLabel.AutoSize = true;
-            this.phonenumLabel.Font = new System.Drawing.Font("Yu Gothic UI", 9.2F);
-            this.phonenumLabel.Location = new System.Drawing.Point(484, 156);
-            this.phonenumLabel.Name = "phonenumLabel";
-            this.phonenumLabel.Size = new System.Drawing.Size(133, 21);
-            this.phonenumLabel.TabIndex = 11;
-            this.phonenumLabel.Text = "Номер телефона:";
+            this.editStudButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.editStudButton.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.editStudButton.ForeColor = System.Drawing.Color.White;
+            this.editStudButton.Location = new System.Drawing.Point(989, 29);
+            this.editStudButton.Name = "editStudButton";
+            this.editStudButton.Size = new System.Drawing.Size(119, 32);
+            this.editStudButton.TabIndex = 15;
+            this.editStudButton.Text = "Изменить";
+            this.editStudButton.UseVisualStyleBackColor = false;
+            this.editStudButton.Click += new System.EventHandler(this.editStudButton_Click);
             // 
-            // genderField
+            // deleteStudButton
             // 
-            this.genderField.FormattingEnabled = true;
-            this.genderField.Items.AddRange(new object[] {
-            "женский",
-            "мужской"});
-            this.genderField.Location = new System.Drawing.Point(154, 208);
-            this.genderField.Name = "genderField";
-            this.genderField.Size = new System.Drawing.Size(240, 24);
-            this.genderField.TabIndex = 10;
+            this.deleteStudButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.deleteStudButton.Font = new System.Drawing.Font("Yu Gothic UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.deleteStudButton.ForeColor = System.Drawing.Color.White;
+            this.deleteStudButton.Location = new System.Drawing.Point(1137, 29);
+            this.deleteStudButton.Name = "deleteStudButton";
+            this.deleteStudButton.Size = new System.Drawing.Size(119, 32);
+            this.deleteStudButton.TabIndex = 16;
+            this.deleteStudButton.Text = "Удалить";
+            this.deleteStudButton.UseVisualStyleBackColor = false;
+            this.deleteStudButton.Click += new System.EventHandler(this.deleteStudButton_Click);
             // 
-            // textBox3
+            // enterPic
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.Window;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.textBox3.Location = new System.Drawing.Point(623, 32);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(267, 90);
-            this.textBox3.TabIndex = 9;
+            this.enterPic.Image = global::Project_1.Properties.Resources._8725510_angle_left_b_icon;
+            this.enterPic.Location = new System.Drawing.Point(61, 22);
+            this.enterPic.Name = "enterPic";
+            this.enterPic.Size = new System.Drawing.Size(51, 50);
+            this.enterPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.enterPic.TabIndex = 7;
+            this.enterPic.TabStop = false;
             // 
-            // label3
+            // returnButton
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(556, 32);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 23);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "Адрес:";
+            this.returnButton.BackColor = System.Drawing.Color.White;
+            this.returnButton.BackgroundImage = global::Project_1.Properties.Resources._8726310_notes_icon;
+            this.returnButton.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.returnButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.returnButton.Location = new System.Drawing.Point(119, 22);
+            this.returnButton.Name = "returnButton";
+            this.returnButton.Size = new System.Drawing.Size(128, 51);
+            this.returnButton.TabIndex = 6;
+            this.returnButton.Text = "Назад";
+            this.returnButton.UseVisualStyleBackColor = false;
+            this.returnButton.Click += new System.EventHandler(this.returnButton_Click);
+            this.returnButton.MouseEnter += new System.EventHandler(this.returnButton_MouseEnter);
+            this.returnButton.MouseLeave += new System.EventHandler(this.returnButton_MouseLeave);
             // 
-            // genderLabel
+            // scoresPic
             // 
-            this.genderLabel.AutoSize = true;
-            this.genderLabel.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.genderLabel.Location = new System.Drawing.Point(103, 208);
-            this.genderLabel.Name = "genderLabel";
-            this.genderLabel.Size = new System.Drawing.Size(45, 23);
-            this.genderLabel.TabIndex = 6;
-            this.genderLabel.Text = "Пол:";
+            this.scoresPic.Image = global::Project_1.Properties.Resources._8725409_book_open_icon;
+            this.scoresPic.Location = new System.Drawing.Point(958, 20);
+            this.scoresPic.Name = "scoresPic";
+            this.scoresPic.Size = new System.Drawing.Size(51, 50);
+            this.scoresPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.scoresPic.TabIndex = 5;
+            this.scoresPic.TabStop = false;
             // 
-            // patronymicField
+            // openScoresButton
             // 
-            this.patronymicField.BackColor = System.Drawing.SystemColors.Window;
-            this.patronymicField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.patronymicField.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.patronymicField.Location = new System.Drawing.Point(154, 146);
-            this.patronymicField.Name = "patronymicField";
-            this.patronymicField.Size = new System.Drawing.Size(240, 24);
-            this.patronymicField.TabIndex = 5;
+            this.openScoresButton.BackColor = System.Drawing.Color.White;
+            this.openScoresButton.BackgroundImage = global::Project_1.Properties.Resources._8726310_notes_icon;
+            this.openScoresButton.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.openScoresButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.openScoresButton.Location = new System.Drawing.Point(1016, 20);
+            this.openScoresButton.Name = "openScoresButton";
+            this.openScoresButton.Size = new System.Drawing.Size(128, 51);
+            this.openScoresButton.TabIndex = 4;
+            this.openScoresButton.Text = "Баллы";
+            this.openScoresButton.UseVisualStyleBackColor = false;
+            this.openScoresButton.Click += new System.EventHandler(this.openScoresButton_Click);
+            this.openScoresButton.MouseEnter += new System.EventHandler(this.openScoresButton_MouseEnter);
+            this.openScoresButton.MouseLeave += new System.EventHandler(this.openScoresButton_MouseLeave);
             // 
-            // label2
+            // groupsPic
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 9.2F);
-            this.label2.Location = new System.Drawing.Point(33, 128);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 42);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Отчество \r\n(при наличии):";
+            this.groupsPic.Image = global::Project_1.Properties.Resources._8725474_book_reader_icon;
+            this.groupsPic.Location = new System.Drawing.Point(716, 21);
+            this.groupsPic.Name = "groupsPic";
+            this.groupsPic.Size = new System.Drawing.Size(51, 50);
+            this.groupsPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.groupsPic.TabIndex = 3;
+            this.groupsPic.TabStop = false;
             // 
-            // secnameField
+            // openGroupsButton
             // 
-            this.secnameField.BackColor = System.Drawing.SystemColors.Window;
-            this.secnameField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.secnameField.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.secnameField.Location = new System.Drawing.Point(154, 81);
-            this.secnameField.Name = "secnameField";
-            this.secnameField.Size = new System.Drawing.Size(240, 24);
-            this.secnameField.TabIndex = 3;
+            this.openGroupsButton.BackColor = System.Drawing.Color.White;
+            this.openGroupsButton.BackgroundImage = global::Project_1.Properties.Resources._8726310_notes_icon;
+            this.openGroupsButton.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.openGroupsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.openGroupsButton.Location = new System.Drawing.Point(774, 21);
+            this.openGroupsButton.Name = "openGroupsButton";
+            this.openGroupsButton.Size = new System.Drawing.Size(128, 51);
+            this.openGroupsButton.TabIndex = 2;
+            this.openGroupsButton.Text = "Группы";
+            this.openGroupsButton.UseVisualStyleBackColor = false;
+            this.openGroupsButton.Click += new System.EventHandler(this.opemGroupsButton_Click);
+            this.openGroupsButton.MouseEnter += new System.EventHandler(this.openGroupsButton_MouseEnter);
+            this.openGroupsButton.MouseLeave += new System.EventHandler(this.openGroupsButton_MouseLeave);
             // 
-            // secondNameLabel
+            // schedulePic
             // 
-            this.secondNameLabel.AutoSize = true;
-            this.secondNameLabel.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.secondNameLabel.Location = new System.Drawing.Point(63, 81);
-            this.secondNameLabel.Name = "secondNameLabel";
-            this.secondNameLabel.Size = new System.Drawing.Size(85, 23);
-            this.secondNameLabel.TabIndex = 2;
-            this.secondNameLabel.Text = "Фамилия:";
+            this.schedulePic.Image = global::Project_1.Properties.Resources._8725528_calendar_alt_icon;
+            this.schedulePic.Location = new System.Drawing.Point(434, 20);
+            this.schedulePic.Name = "schedulePic";
+            this.schedulePic.Size = new System.Drawing.Size(51, 50);
+            this.schedulePic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.schedulePic.TabIndex = 1;
+            this.schedulePic.TabStop = false;
             // 
-            // firstnameField
+            // openSchedButton
             // 
-            this.firstnameField.BackColor = System.Drawing.SystemColors.Window;
-            this.firstnameField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.firstnameField.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.8F);
-            this.firstnameField.Location = new System.Drawing.Point(154, 33);
-            this.firstnameField.Name = "firstnameField";
-            this.firstnameField.Size = new System.Drawing.Size(240, 24);
-            this.firstnameField.TabIndex = 1;
+            this.openSchedButton.BackColor = System.Drawing.Color.White;
+            this.openSchedButton.BackgroundImage = global::Project_1.Properties.Resources._8726310_notes_icon;
+            this.openSchedButton.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.openSchedButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.openSchedButton.Location = new System.Drawing.Point(491, 22);
+            this.openSchedButton.Name = "openSchedButton";
+            this.openSchedButton.Size = new System.Drawing.Size(148, 51);
+            this.openSchedButton.TabIndex = 0;
+            this.openSchedButton.Text = "Расписание";
+            this.openSchedButton.UseVisualStyleBackColor = false;
+            this.openSchedButton.Click += new System.EventHandler(this.openSchedButton_Click);
+            this.openSchedButton.MouseEnter += new System.EventHandler(this.openSchedButton_MouseEnter);
+            this.openSchedButton.MouseLeave += new System.EventHandler(this.openSchedButton_MouseLeave);
             // 
-            // nameLabel
+            // pictureBox2
             // 
-            this.nameLabel.AutoSize = true;
-            this.nameLabel.Font = new System.Drawing.Font("Yu Gothic UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.nameLabel.Location = new System.Drawing.Point(100, 33);
-            this.nameLabel.Name = "nameLabel";
-            this.nameLabel.Size = new System.Drawing.Size(48, 23);
-            this.nameLabel.TabIndex = 0;
-            this.nameLabel.Text = "Имя:";
+            this.pictureBox2.Image = global::Project_1.Properties.Resources._8726310_notes_icon;
+            this.pictureBox2.Location = new System.Drawing.Point(701, 21);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(51, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.BackgroundImage = global::Project_1.Properties.Resources._8726310_notes_icon;
+            this.button1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
+            this.button1.Location = new System.Drawing.Point(759, 21);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(128, 51);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Расписание";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Project_1.Properties.Resources._8726310_notes_icon;
+            this.pictureBox1.Location = new System.Drawing.Point(443, 22);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(51, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // AdminForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1299, 740);
+            this.ClientSize = new System.Drawing.Size(1299, 768);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AdminForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AdminForm";
+            this.Load += new System.EventHandler(this.AdminForm_Load);
+            this.panel1.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.dataPanel.ResumeLayout(false);
             this.dataPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.studDataGridView)).EndInit();
-            this.editPanel.ResumeLayout(false);
-            this.editPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.enterPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.scoresPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupsPic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.schedulePic)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -409,28 +390,23 @@
         private System.Windows.Forms.Panel dataPanel;
         private System.Windows.Forms.Label dataLabel;
         private System.Windows.Forms.DataGridView studDataGridView;
-        private System.Windows.Forms.Panel editPanel;
-        private System.Windows.Forms.Label closeLabel;
-        private System.Windows.Forms.TextBox passwField;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label usernameLabel;
-        private System.Windows.Forms.TextBox usernameField;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button deleteStudButton;
-        private System.Windows.Forms.Button clearStudButton;
+        private System.Windows.Forms.Button editStudButton;
         private System.Windows.Forms.Button updateStudButton;
         private System.Windows.Forms.Button addStudButton;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label phonenumLabel;
-        private System.Windows.Forms.ComboBox genderField;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label genderLabel;
-        private System.Windows.Forms.TextBox patronymicField;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox secnameField;
-        private System.Windows.Forms.Label secondNameLabel;
-        private System.Windows.Forms.TextBox firstnameField;
-        private System.Windows.Forms.Label nameLabel;
+        private System.Windows.Forms.Button openScheduleButton;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox groupsPic;
+        private System.Windows.Forms.Button openGroupsButton;
+        private System.Windows.Forms.PictureBox schedulePic;
+        private System.Windows.Forms.Button openSchedButton;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.PictureBox scoresPic;
+        private System.Windows.Forms.Button openScoresButton;
+        private System.Windows.Forms.PictureBox enterPic;
+        private System.Windows.Forms.Button returnButton;
+        private System.Windows.Forms.Label closeLabel;
     }
 }

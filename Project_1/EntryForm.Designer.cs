@@ -54,7 +54,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(100)))), ((int)(((byte)(252)))));
-            this.label1.Location = new System.Drawing.Point(143, 63);
+            this.label1.Location = new System.Drawing.Point(143, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(331, 45);
             this.label1.TabIndex = 0;
@@ -134,6 +134,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "LoginForm";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.UseWaitCursor = true;
             this.topPanel.ResumeLayout(false);

@@ -63,6 +63,46 @@ namespace Project_1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8725409_book_open_icon {
+            get {
+                object obj = ResourceManager.GetObject("8725409_book_open_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8725474_book_reader_icon {
+            get {
+                object obj = ResourceManager.GetObject("8725474_book_reader_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8725510_angle_left_b_icon {
+            get {
+                object obj = ResourceManager.GetObject("8725510_angle_left_b_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8725528_calendar_alt_icon {
+            get {
+                object obj = ResourceManager.GetObject("8725528_calendar_alt_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8726020_lock_alt_icon {
             get {
                 object obj = ResourceManager.GetObject("8726020_lock_alt_icon", resourceCulture);
@@ -76,6 +116,16 @@ namespace Project_1.Properties {
         internal static System.Drawing.Bitmap _8726020_lock_alt_icon__1_ {
             get {
                 object obj = ResourceManager.GetObject("8726020_lock_alt_icon (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8726310_notes_icon {
+            get {
+                object obj = ResourceManager.GetObject("8726310_notes_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
